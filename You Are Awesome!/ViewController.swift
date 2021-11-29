@@ -16,10 +16,15 @@ class ViewController: UIViewController {
         messageLabel.text = "What is this?"
     }
 
-
     @IBAction func addNotePressed(_ sender: UIButton) {
         print("The message button was pressed!😎")
         messageLabel.text = "You are awesome!"
+    }
+    
+    
+    @IBAction func add2ndNote(_ sender: UIButton) {
+        messageLabel.text = "What it be?"
+
     }
 }
 
